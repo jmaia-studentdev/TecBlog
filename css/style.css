@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 1em;
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+
+}
+
+
+a {
+    color:#EFC20F;
+    text-decoration: none;
+    
+}
+
+
+ul {
+    list-style: none;
+}
+
+/* Barra Superior */
+
+#topo {
+    background-color: #f7b600 ;
+    text-align: center;
+    height: 130px;
+    margin-top: 0px;
+}
+
+#topo h1 {
+    color: #FFF;
+    padding-top: 30px;
+    font-size: 2.5em;
+}
+
+#menu {
+
+    margin-top: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #FFF;
+    padding: 10px;    
+
+}
+
+#menu a:hover {
+    background-color: #FFF;
+    color: #f7b600 ;
+    
+}
+
+/* Area Principal */
+
+
+#container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px 0;
+    
+
+}
+
+    /*Area Central e Postagens */
+
+#conteudo {
+    width: 660px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    
+}
+
+.postagem{
+    margin-bottom: 20px;
+    background-color: #FFF;
+    padding: 20px 20px 20px 20px;
+
+
+}
+
+.postagem h2 {
+    color:#f7b600;
+}
+
+.postagem span {
+    font-size: 0.8em;
+    border-bottom: lightgray 1px solid ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+    /*Area Lateral e Publicações laterais*/
+
+#lateral {
+    width: 240px;    
+    float: left;
+    margin-top: 15px;  
+    
+
+}
+
+.post-lateral {
+    background-color: #FFF;
+    padding: 10px 10px 10px 10px;
+        
+}
+
+.post-lateral h3 {
+    font-size: 1.2em;
+    background-color:#CCC;
+    padding: 5px 5px;
+}
+
+.post-lateral p {
+    font-size: 0.9em;
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background-color: #CCC;
+    padding: 15px;
+
+    }
+
